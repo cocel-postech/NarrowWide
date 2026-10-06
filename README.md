@@ -1,4 +1,4 @@
-# NarrowWide Dataset
+<h1 align="center">NarrowWide Dataset</h1>
 
 [![arXiv](https://img.shields.io/badge/arXiv-2603.16273-b31b1b.svg)](https://arxiv.org/abs/2603.16273)
 <!-- TODO: badges for GenZ-LIO code, YouTube, and license -->
@@ -62,12 +62,12 @@ Cameras are mounted for visualization only and are not used by the odometry pipe
 
 | Sequence | Platform | Distance [m] | Duration [s] | Min. width [m] | # of confined–open transitions | Size | Download |
 |---|---|:-:|:-:|:-:|:-:|:-:|:-:|
-| Tracked-01 | Tracked robot | 265.7 | 621.0 | 1.0 | 8 | 4.3 GB | TBD |
-| Tracked-02 | Tracked robot | 269.2 | 578.2 | 1.0 | 8 | 3.5 GB | TBD |
-| Handheld-A-01 | Handheld A | 263.0 | 521.9 | 0.3 | 6 | 2.9 GB | TBD |
-| Handheld-A-02 | Handheld A | 244.9 | 402.4 | 0.3 | 6 | 2.1 GB | TBD |
-| Handheld-B-01 | Handheld B | 408.7 | 636.0 | 0.5 | 10 | 5.8 GB | TBD |
-| Handheld-B-02 | Handheld B | 415.9 | 529.1 | 0.5 | 8 | 4.8 GB | TBD |
+| Tracked-01 | Tracked robot | 265.7 | 621.0 | 1.0 | 8 | 4.3 GB | [ROS1]()/[ROS2]() |
+| Tracked-02 | Tracked robot | 269.2 | 578.2 | 1.0 | 8 | 3.5 GB | [ROS1]()/[ROS2]() |
+| Handheld-A-01 | Handheld A | 263.0 | 521.9 | 0.3 | 6 | 2.9 GB | [ROS1]()/[ROS2]() |
+| Handheld-A-02 | Handheld A | 244.9 | 402.4 | 0.3 | 6 | 2.1 GB | [ROS1]()/[ROS2]() |
+| Handheld-B-01 | Handheld B | 408.7 | 636.0 | 0.5 | 10 | 5.8 GB | [ROS1]()/[ROS2]() |
+| Handheld-B-02 | Handheld B | 415.9 | 529.1 | 0.5 | 8 | 4.8 GB | [ROS1]()/[ROS2]() |
 
 The minimum width is the width of the narrowest space traversed in each sequence; the widest open areas
 traversed exceed 100 m in all sequences. Every sequence returns to its starting position, forming a loop.
@@ -75,14 +75,16 @@ All sequences were recorded on 6 November 2025. Size is the size of the ROS 2 ba
 
 <table>
   <tr>
-    <td align="center" width="33%"><img src="fig/Tracked-01.gif" width="100%"><br><b>Tracked-01</b><br><a href="https://youtu.be/mfNbzXGq0k4">▶ Camera video</a></td>
-    <td align="center" width="33%"><img src="fig/Tracked-02.gif" width="100%"><br><b>Tracked-02</b><br><a href="https://youtu.be/2pklu5BBDGU">▶ Camera video</a></td>
-    <td align="center" width="33%"><img src="fig/Handheld-A-01.gif" width="100%"><br><b>Handheld-A-01</b><br><a href="https://youtu.be/HtsVLIKBW2k">▶ Camera video</a></td>
+    <td align="center" width="50%"><img src="fig/Tracked-01.gif" width="100%"><br><b>Tracked-01</b><br><a href="https://youtu.be/mfNbzXGq0k4">▶ Camera video</a></td>
+    <td align="center" width="50%"><img src="fig/Tracked-02.gif" width="100%"><br><b>Tracked-02</b><br><a href="https://youtu.be/2pklu5BBDGU">▶ Camera video</a></td>
   </tr>
   <tr>
-    <td align="center" width="33%"><img src="fig/Handheld-A-02.gif" width="100%"><br><b>Handheld-A-02</b><br><a href="https://youtu.be/p8Q2ib8B6yw">▶ Camera video</a></td>
-    <td align="center" width="33%"><img src="fig/Handheld-B-01.gif" width="100%"><br><b>Handheld-B-01</b><br><a href="https://youtu.be/Uhf_Ahj7aQU">▶ Camera video</a></td>
-    <td align="center" width="33%"><img src="fig/Handheld-B-02.gif" width="100%"><br><b>Handheld-B-02</b><br><a href="https://youtu.be/jT8D495zCyo">▶ Camera video</a></td>
+    <td align="center" width="50%"><img src="fig/Handheld-A-01.gif" width="100%"><br><b>Handheld-A-01</b><br><a href="https://youtu.be/HtsVLIKBW2k">▶ Camera video</a></td>
+    <td align="center" width="50%"><img src="fig/Handheld-A-02.gif" width="100%"><br><b>Handheld-A-02</b><br><a href="https://youtu.be/p8Q2ib8B6yw">▶ Camera video</a></td>
+  </tr>
+  <tr>
+    <td align="center" width="50%"><img src="fig/Handheld-B-01.gif" width="100%"><br><b>Handheld-B-01</b><br><a href="https://youtu.be/Uhf_Ahj7aQU">▶ Camera video</a></td>
+    <td align="center" width="50%"><img src="fig/Handheld-B-02.gif" width="100%"><br><b>Handheld-B-02</b><br><a href="https://youtu.be/jT8D495zCyo">▶ Camera video</a></td>
   </tr>
 </table>
 <p align="center"><em>GenZ-LIO mapping on each sequence, recorded from the same viewpoint.</em></p>
@@ -93,19 +95,20 @@ Each sequence is released as both a ROS 1 bag and a ROS 2 bag (sqlite3 storage, 
 contain the same topics; the ROS 1 message types are the ROS 2 types below without `/msg`
 (e.g. `sensor_msgs/Imu`, `livox_ros_driver2/CustomMsg`).
 
-| Platform | Sensor | Topic | Message type (ROS 2) | Frame ID |
-|---|---|---|---|---|
-| Tracked robot | LiDAR | `/livox/lidar` | `livox_ros_driver2/msg/CustomMsg` | `livox` |
-| | IMU | `/vectornav/IMU` | `sensor_msgs/msg/Imu` | `vectornav` |
-| | Camera | `/camera/image_color/compressed` | `sensor_msgs/msg/CompressedImage` | `camera` |
-| | Camera info | `/camera/camera_info` | `sensor_msgs/msg/CameraInfo` | `camera` |
-| Handheld A | LiDAR | `/velodyne_points` | `sensor_msgs/msg/PointCloud2` | `velodyne` |
-| | IMU | `/vectornav/IMU` | `sensor_msgs/msg/Imu` | `vectornav` |
-| | Camera | `/camera/color/image_raw/compressed` | `sensor_msgs/msg/CompressedImage` | `camera_color_optical_frame` |
-| | Camera info | `/camera/color/camera_info` | `sensor_msgs/msg/CameraInfo` | `camera_color_optical_frame` |
-| Handheld B | LiDAR | `/livox/lidar` | `livox_ros_driver2/msg/CustomMsg` | `livox_frame` |
-| | IMU | `/livox/imu` | `sensor_msgs/msg/Imu` | `livox_frame` |
-| | Camera | `/camera/image_color/compressed` | `sensor_msgs/msg/CompressedImage` | `camera` |
+<table>
+  <tr><th>Platform</th><th>Sensor</th><th>Topic</th><th>Message type (ROS 2)</th><th>Frame ID</th></tr>
+  <tr><td rowspan="4">Tracked robot</td><td>LiDAR</td><td><code>/livox/lidar</code></td><td><code>livox_ros_driver2/msg/CustomMsg</code></td><td><code>livox</code></td></tr>
+  <tr><td>IMU</td><td><code>/vectornav/IMU</code></td><td><code>sensor_msgs/msg/Imu</code></td><td><code>vectornav</code></td></tr>
+  <tr><td>Camera</td><td><code>/camera/image_color/compressed</code></td><td><code>sensor_msgs/msg/CompressedImage</code></td><td><code>camera</code></td></tr>
+  <tr><td>Camera info</td><td><code>/camera/camera_info</code></td><td><code>sensor_msgs/msg/CameraInfo</code></td><td><code>camera</code></td></tr>
+  <tr><td rowspan="4">Handheld A</td><td>LiDAR</td><td><code>/velodyne_points</code></td><td><code>sensor_msgs/msg/PointCloud2</code></td><td><code>velodyne</code></td></tr>
+  <tr><td>IMU</td><td><code>/vectornav/IMU</code></td><td><code>sensor_msgs/msg/Imu</code></td><td><code>vectornav</code></td></tr>
+  <tr><td>Camera</td><td><code>/camera/color/image_raw/compressed</code></td><td><code>sensor_msgs/msg/CompressedImage</code></td><td><code>camera_color_optical_frame</code></td></tr>
+  <tr><td>Camera info</td><td><code>/camera/color/camera_info</code></td><td><code>sensor_msgs/msg/CameraInfo</code></td><td><code>camera_color_optical_frame</code></td></tr>
+  <tr><td rowspan="3">Handheld B</td><td>LiDAR</td><td><code>/livox/lidar</code></td><td><code>livox_ros_driver2/msg/CustomMsg</code></td><td><code>livox_frame</code></td></tr>
+  <tr><td>IMU</td><td><code>/livox/imu</code></td><td><code>sensor_msgs/msg/Imu</code></td><td><code>livox_frame</code></td></tr>
+  <tr><td>Camera</td><td><code>/camera/image_color/compressed</code></td><td><code>sensor_msgs/msg/CompressedImage</code></td><td><code>camera</code></td></tr>
+</table>
 
 - **LiDAR**: Livox point clouds use the `CustomMsg` type of
   [`livox_ros_driver2`](https://github.com/Livox-SDK/livox_ros_driver2), so playing the Tracked and
@@ -119,6 +122,8 @@ contain the same topics; the ROS 1 message types are the ROS 2 types below witho
 Calibration parameters (LiDAR–IMU extrinsics and camera intrinsics/extrinsics) are currently being
 verified and will be released once verification is complete. Until then, do not rely on the
 `camera_info` messages recorded in the bags.
+
+**Download**: [Calibration]()
 
 <!-- TODO: add verified calibration files and how they were obtained -->
 
@@ -142,7 +147,7 @@ with the timestamp in seconds, the position in meters, and the orientation as a 
 given for the IMU frame of each platform (VectorNav VN-100 on the tracked robot and Handheld A, the built-in
 BMI088 on Handheld B).
 
-**Download**: TBD
+**Download**: [Ground truth]()
 
 ## Benchmark
 
