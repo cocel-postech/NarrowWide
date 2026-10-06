@@ -1,7 +1,9 @@
 <h1 align="center">NarrowWide Dataset</h1>
 
-[![arXiv](https://img.shields.io/badge/arXiv-2603.16273-b31b1b.svg)](https://arxiv.org/abs/2603.16273)
-<!-- TODO: badges for GenZ-LIO code, YouTube, and license -->
+<p align="center">
+  <a href="https://arxiv.org/abs/2603.16273"><img src="https://img.shields.io/badge/arXiv-2603.16273-b31b1b.svg" alt="arXiv"></a>
+  <!-- TODO: badges for GenZ-LIO code, YouTube, and license -->
+</p>
 
 A LiDAR-inertial dataset with frequent transitions between confined and open spaces, introduced in
 **GenZ-LIO: Generalizable LiDAR-Inertial Odometry Beyond Confined–Open Boundaries**.
