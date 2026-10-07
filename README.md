@@ -193,7 +193,7 @@ and the built-in BMI088 on Handheld B.
 Absolute trajectory error (ATE), reported as RMSE in meters, from the paper's NarrowWide benchmark.
 **Bold** indicates the lowest error in each sequence. **×** indicates divergence (ATE RMSE > 200 m);
 **–** indicates that the method does not support the sequence's LiDAR sensor.
-All methods use a voxel size of 0.25 m on these sequences.
+For benchmark results on other datasets, see the [GenZ-LIO paper](https://arxiv.org/abs/2603.16273).
 
 <!-- TODO: link the GenZ-LIO repository (it has the NarrowWide configs) once it is public -->
 
