@@ -221,7 +221,7 @@ For benchmark results on other datasets, see the [GenZ-LIO paper](https://arxiv.
 
 ## Citation
 
-If you use this dataset, please cite:
+If you use this dataset, please cite our [paper](https://arxiv.org/abs/2603.16273).
 
 ```bibtex
 @article{lee2026genzlio,
@@ -234,6 +234,22 @@ If you use this dataset, please cite:
 ```
 
 <!-- TODO: update to the final venue after publication -->
+
+For LiDAR-only odometry, see [GenZ-ICP](https://github.com/cocel-postech/genz-icp)
+([arXiv](https://arxiv.org/abs/2411.06766), [IEEE *Xplore*](https://ieeexplore.ieee.org/document/10753079)).
+
+```bibtex
+@article{lee2024genzicp,
+  author={Lee, Daehan and Lim, Hyungtae and Han, Soohee},
+  title={{GenZ-ICP: Generalizable and Degeneracy-Robust LiDAR Odometry Using an Adaptive Weighting}},
+  journal={IEEE Robotics and Automation Letters (RA-L)},
+  year={2025},
+  volume={10},
+  number={1},
+  pages={152--159},
+  doi={10.1109/LRA.2024.3498779}
+}
+```
 
 ## License
 
