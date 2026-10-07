@@ -194,4 +194,7 @@ The NarrowWide dataset is released under the [MIT License](LICENSE).
 
 ## Contact
 
-> TODO: contact for questions about the dataset.
+For questions and bugs, open an [issue](https://github.com/cocel-postech/NarrowWide/issues) or contact us:
+
+- [Daehan Lee](https://github.com/Daehan2Lee) :envelope: daehanlee `at` postech `dot` ac `dot` kr
+- [Sanghyun Park](https://github.com/SanghyunPark01) :envelope: pash0302 `at` postech `dot` ac `dot` kr
