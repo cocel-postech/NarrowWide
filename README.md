@@ -159,12 +159,17 @@ The tables below use short message type names. In ROS 2, `CustomMsg` is
 
 ## Calibration
 
-LiDAR–IMU extrinsics and camera intrinsics/extrinsics are being verified and will be released when
-verification is complete. Until then, do not rely on the recorded `camera_info` messages for calibration.
+Calibration was performed using
+[LI-Init](https://github.com/hku-mars/LiDAR_IMU_Init),
+[FAST-Calib](https://github.com/hku-mars/FAST-Calib),
+[FAST-Calib2](https://github.com/xuankuzcr/FAST-Calib2),
+[livox_camera_calib](https://github.com/hku-mars/livox_camera_calib), and
+[lidar_camera_calibration](https://github.com/ankitdhall/lidar_camera_calibration).
+We thank the authors and contributors for sharing their calibration tools with the community.
 
 **Download**: [Calibration]()
 
-<!-- TODO: add verified calibration files and how they were obtained -->
+<!-- TODO: add calibration files -->
 
 ## Ground Truth
 
