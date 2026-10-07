@@ -4,9 +4,9 @@
   <a href="https://arxiv.org/abs/2603.16273"><img src="https://img.shields.io/badge/arXiv-2603.16273-b31b1b.svg" alt="arXiv"></a>
   <a href="https://github.com/cocel-postech/genz-lio/tree/master/cpp/genz_lio"><img src="https://img.shields.io/badge/C%2B%2B-17-blue.svg" alt="C++: 17"></a>
   <a href="https://github.com/cocel-postech/genz-lio/blob/master/python/README.md"><img src="https://img.shields.io/badge/Python-3.8--3.12-yellow.svg" alt="Python: 3.8–3.12"></a>
-  <a href="#data-format"><img src="https://img.shields.io/badge/ROS%201-Noetic-purple.svg" alt="ROS 1: Noetic"></a>
+  <a href="#data-format"><img src="https://img.shields.io/badge/ROS%201-Noetic-green.svg" alt="ROS 1: Noetic"></a>
   <a href="#data-format"><img src="https://img.shields.io/badge/ROS%202-Humble%20%7C%20Jazzy-orange.svg" alt="ROS 2: Humble | Jazzy"></a>
-  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License: MIT"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-purple.svg" alt="License: MIT"></a>
   <!-- TODO: badges for GenZ-LIO code and YouTube -->
 </p>
 
