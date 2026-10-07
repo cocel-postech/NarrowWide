@@ -88,7 +88,7 @@ All sequences were recorded on 6 November 2025. Size is the size of the ROS 2 ba
     <td align="center" width="50%"><a href="fig/Handheld-B-02.gif" title="Open the full-resolution GIF"><img src="fig/Handheld-B-02.webp" width="100%" alt="GenZ-LIO mapping on Handheld-B-02"></a><br><b>Handheld-B-02</b><br><a href="https://youtu.be/jT8D495zCyo">▶ Camera video</a></td>
   </tr>
 </table>
-<p align="center"><em>GenZ-LIO mapping on each sequence, recorded from the same viewpoint. Click a preview to open the full-resolution GIF.</em></p>
+<p align="center"><em>Mapping results from GenZ-LIO on each sequence. Click a preview to open the full-resolution GIF.</em></p>
 
 ## Data Format
 
