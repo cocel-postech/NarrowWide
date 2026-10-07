@@ -199,8 +199,7 @@ All methods use a voxel size of 0.25 m on these sequences.
 
 <table>
   <thead>
-    <tr><th rowspan="2">Method</th><th colspan="2">Tracked</th><th colspan="2">Handheld&nbsp;A</th><th colspan="2">Handheld&nbsp;B</th></tr>
-    <tr><th>01</th><th>02</th><th>01</th><th>02</th><th>01</th><th>02</th></tr>
+    <tr><th>Method</th><th>Tracked&#8209;01</th><th>Tracked&#8209;02</th><th>Handheld&#8209;A&#8209;01</th><th>Handheld&#8209;A&#8209;02</th><th>Handheld&#8209;B&#8209;01</th><th>Handheld&#8209;B&#8209;02</th></tr>
   </thead>
   <tbody>
     <tr><td>FAST-LIO2</td><td align="center">0.23</td><td align="center">×</td><td align="center">×</td><td align="center">×</td><td align="center">1.45</td><td align="center">3.17</td></tr>
@@ -211,9 +210,9 @@ All methods use a voxel size of 0.25 m on these sequences.
     <tr><td>DLIO</td><td align="center">×</td><td align="center">×</td><td align="center">×</td><td align="center">×</td><td align="center">×</td><td align="center">×</td></tr>
     <tr><td>iG-LIO</td><td align="center">0.28</td><td align="center">0.18</td><td align="center">2.26</td><td align="center">0.58</td><td align="center">×</td><td align="center">×</td></tr>
     <tr><td>PV-LIO (baseline)</td><td align="center">3.71</td><td align="center">×</td><td align="center">×</td><td align="center">×</td><td align="center">×</td><td align="center">×</td></tr>
-    <tr><td>Baseline + adaptive voxels</td><td align="center">0.21</td><td align="center">0.20</td><td align="center">0.22</td><td align="center">0.28</td><td align="center">0.24</td><td align="center">0.67</td></tr>
-    <tr><td>Baseline + hybrid metric</td><td align="center">0.24</td><td align="center">0.23</td><td align="center"><strong>0.18</strong></td><td align="center">0.22</td><td align="center">0.38</td><td align="center">2.07</td></tr>
-    <tr><td>GenZ-LIO</td><td align="center">0.16</td><td align="center">0.12</td><td align="center">0.19</td><td align="center"><strong>0.15</strong></td><td align="center"><strong>0.15</strong></td><td align="center"><strong>0.17</strong></td></tr>
+    <tr><td>Baseline w/ adap. vox.</td><td align="center">0.21</td><td align="center">0.20</td><td align="center">0.22</td><td align="center">0.28</td><td align="center">0.24</td><td align="center">0.67</td></tr>
+    <tr><td>Baseline w/ hybrid-metric</td><td align="center">0.24</td><td align="center">0.23</td><td align="center"><strong>0.18</strong></td><td align="center">0.22</td><td align="center">0.38</td><td align="center">2.07</td></tr>
+    <tr><td>GenZ-LIO (ours)</td><td align="center">0.16</td><td align="center">0.12</td><td align="center">0.19</td><td align="center"><strong>0.15</strong></td><td align="center"><strong>0.15</strong></td><td align="center"><strong>0.17</strong></td></tr>
   </tbody>
 </table>
 
