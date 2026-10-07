@@ -198,24 +198,22 @@ Absolute trajectory error (ATE) on NarrowWide, reported as RMSE in meters.
 **–** indicates that the method does not support the sequence's LiDAR sensor.
 For benchmark results on other datasets, see the [GenZ-LIO paper](https://arxiv.org/abs/2603.16273).
 
-<!-- TODO: link the GenZ-LIO repository (it has the NarrowWide configs) once it is public -->
-
 <table>
   <thead>
     <tr><th>Method</th><th>Tracked&#8209;01</th><th>Tracked&#8209;02</th><th>Handheld&#8209;A&#8209;01</th><th>Handheld&#8209;A&#8209;02</th><th>Handheld&#8209;B&#8209;01</th><th>Handheld&#8209;B&#8209;02</th></tr>
   </thead>
   <tbody>
-    <tr><td>FAST-LIO2</td><td align="center">0.23</td><td align="center">×</td><td align="center">×</td><td align="center">×</td><td align="center">1.45</td><td align="center">3.17</td></tr>
-    <tr><td>Faster-LIO</td><td align="center"><strong>0.11</strong></td><td align="center"><strong>0.11</strong></td><td align="center">×</td><td align="center">×</td><td align="center">0.32</td><td align="center">×</td></tr>
-    <tr><td>AdaLIO</td><td align="center">0.17</td><td align="center">×</td><td align="center">0.47</td><td align="center">0.25</td><td align="center">6.61</td><td align="center">2.03</td></tr>
-    <tr><td>Point-LIO</td><td align="center">1.48</td><td align="center">0.57</td><td align="center">0.20</td><td align="center">0.32</td><td align="center">×</td><td align="center">×</td></tr>
-    <tr><td>LIO-EKF</td><td align="center">–</td><td align="center">–</td><td align="center">×</td><td align="center">×</td><td align="center">–</td><td align="center">–</td></tr>
-    <tr><td>DLIO</td><td align="center">×</td><td align="center">×</td><td align="center">×</td><td align="center">×</td><td align="center">×</td><td align="center">×</td></tr>
-    <tr><td>iG-LIO</td><td align="center">0.28</td><td align="center">0.18</td><td align="center">2.26</td><td align="center">0.58</td><td align="center">×</td><td align="center">×</td></tr>
-    <tr><td>PV-LIO (baseline)</td><td align="center">3.71</td><td align="center">×</td><td align="center">×</td><td align="center">×</td><td align="center">×</td><td align="center">×</td></tr>
+    <tr><td><a href="https://github.com/hku-mars/FAST_LIO">FAST-LIO2</a></td><td align="center">0.23</td><td align="center">×</td><td align="center">×</td><td align="center">×</td><td align="center">1.45</td><td align="center">3.17</td></tr>
+    <tr><td><a href="https://github.com/gaoxiang12/faster-lio">Faster-LIO</a></td><td align="center"><strong>0.11</strong></td><td align="center"><strong>0.11</strong></td><td align="center">×</td><td align="center">×</td><td align="center">0.32</td><td align="center">×</td></tr>
+    <tr><td><a href="https://arxiv.org/abs/2304.12577">AdaLIO</a></td><td align="center">0.17</td><td align="center">×</td><td align="center">0.47</td><td align="center">0.25</td><td align="center">6.61</td><td align="center">2.03</td></tr>
+    <tr><td><a href="https://github.com/hku-mars/Point-LIO">Point-LIO</a></td><td align="center">1.48</td><td align="center">0.57</td><td align="center">0.20</td><td align="center">0.32</td><td align="center">×</td><td align="center">×</td></tr>
+    <tr><td><a href="https://github.com/YibinWu/LIO-EKF">LIO-EKF</a></td><td align="center">–</td><td align="center">–</td><td align="center">×</td><td align="center">×</td><td align="center">–</td><td align="center">–</td></tr>
+    <tr><td><a href="https://github.com/vectr-ucla/direct_lidar_inertial_odometry">DLIO</a></td><td align="center">×</td><td align="center">×</td><td align="center">×</td><td align="center">×</td><td align="center">×</td><td align="center">×</td></tr>
+    <tr><td><a href="https://github.com/zijiechenrobotics/ig_lio">iG-LIO</a></td><td align="center">0.28</td><td align="center">0.18</td><td align="center">2.26</td><td align="center">0.58</td><td align="center">×</td><td align="center">×</td></tr>
+    <tr><td><a href="https://github.com/HViktorTsoi/PV-LIO">PV-LIO</a> (baseline)</td><td align="center">3.71</td><td align="center">×</td><td align="center">×</td><td align="center">×</td><td align="center">×</td><td align="center">×</td></tr>
     <tr><td>Baseline w/ adap. vox.</td><td align="center">0.21</td><td align="center">0.20</td><td align="center">0.22</td><td align="center">0.28</td><td align="center">0.24</td><td align="center">0.67</td></tr>
     <tr><td>Baseline w/ hybrid-metric</td><td align="center">0.24</td><td align="center">0.23</td><td align="center"><strong>0.18</strong></td><td align="center">0.22</td><td align="center">0.38</td><td align="center">2.07</td></tr>
-    <tr><td>GenZ-LIO (ours)</td><td align="center">0.16</td><td align="center">0.12</td><td align="center">0.19</td><td align="center"><strong>0.15</strong></td><td align="center"><strong>0.15</strong></td><td align="center"><strong>0.17</strong></td></tr>
+    <tr><td><a href="https://github.com/cocel-postech/genz-lio">GenZ-LIO</a> (ours)</td><td align="center">0.16</td><td align="center">0.12</td><td align="center">0.19</td><td align="center"><strong>0.15</strong></td><td align="center"><strong>0.15</strong></td><td align="center"><strong>0.17</strong></td></tr>
   </tbody>
 </table>
 
