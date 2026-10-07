@@ -16,7 +16,7 @@ A LiDAR-inertial dataset with frequent transitions between confined and open spa
 <!-- TODO: temporary hero (paper Fig. 1); replace with the overview photo of the acquisition environment -->
 <p align="center">
   <img src="fig/trajectory_handheld_a_01.jpg" width="100%"><br>
-  <em>Trajectory of the Handheld-A-01 sequence estimated by GenZ-LIO, colored by spatial scale from narrow (red) to wide (blue).</em>
+  <em>Estimated trajectory and mapping result of GenZ-LIO on the Handheld-A-01 sequence of our NarrowWide dataset.</em>
 </p>
 
 ## Overview
