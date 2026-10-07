@@ -10,20 +10,14 @@
   <!-- TODO: badges for GenZ-LIO code and YouTube -->
 </p>
 
-A LiDAR-inertial dataset with frequent transitions between confined and open spaces, introduced in
-**GenZ-LIO: Generalizable LiDAR-Inertial Odometry Beyond Confined–Open Boundaries**.
+A LiDAR-inertial dataset with frequent transitions between confined and open spaces, presented in
+**[GenZ-LIO](https://github.com/cocel-postech/genz-lio): Generalizable LiDAR-Inertial Odometry Beyond Confined–Open Boundaries**.
 
 <!-- TODO: temporary hero (paper Fig. 1); replace with the overview photo of the acquisition environment -->
 <p align="center">
-  <img src="fig/trajectory_handheld_a_01.jpg" width="80%"><br>
-  <em>Handheld-A-01 passes through a staircase (A), a confined room (B) and corner (C), open space (D), and
-  cross (E) and linear (F) structures. The trajectory is estimated by GenZ-LIO and colored by its scale
-  indicator, from narrow (red) to wide (blue).</em>
+  <img src="fig/trajectory_handheld_a_01.jpg" width="100%"><br>
+  <em>Trajectory of the Handheld-A-01 sequence estimated by GenZ-LIO, colored by spatial scale from narrow (red) to wide (blue).</em>
 </p>
-
-## News
-
-- **TBD**: Dataset released.
 
 ## Overview
 
