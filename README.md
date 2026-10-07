@@ -76,19 +76,19 @@ All sequences were recorded on 6 November 2025. Size is the size of the ROS 2 ba
 
 <table>
   <tr>
-    <td align="center" width="50%"><img src="fig/Tracked-01.gif" width="100%"><br><b>Tracked-01</b><br><a href="https://youtu.be/mfNbzXGq0k4">▶ Camera video</a></td>
-    <td align="center" width="50%"><img src="fig/Tracked-02.gif" width="100%"><br><b>Tracked-02</b><br><a href="https://youtu.be/2pklu5BBDGU">▶ Camera video</a></td>
+    <td align="center" width="50%"><a href="fig/Tracked-01.gif" title="Open the full-resolution GIF"><img src="fig/Tracked-01.webp" width="100%" alt="GenZ-LIO mapping on Tracked-01"></a><br><b>Tracked-01</b><br><a href="https://youtu.be/mfNbzXGq0k4">▶ Camera video</a></td>
+    <td align="center" width="50%"><a href="fig/Tracked-02.gif" title="Open the full-resolution GIF"><img src="fig/Tracked-02.webp" width="100%" alt="GenZ-LIO mapping on Tracked-02"></a><br><b>Tracked-02</b><br><a href="https://youtu.be/2pklu5BBDGU">▶ Camera video</a></td>
   </tr>
   <tr>
-    <td align="center" width="50%"><img src="fig/Handheld-A-01.gif" width="100%"><br><b>Handheld-A-01</b><br><a href="https://youtu.be/HtsVLIKBW2k">▶ Camera video</a></td>
-    <td align="center" width="50%"><img src="fig/Handheld-A-02.gif" width="100%"><br><b>Handheld-A-02</b><br><a href="https://youtu.be/p8Q2ib8B6yw">▶ Camera video</a></td>
+    <td align="center" width="50%"><a href="fig/Handheld-A-01.gif" title="Open the full-resolution GIF"><img src="fig/Handheld-A-01.webp" width="100%" alt="GenZ-LIO mapping on Handheld-A-01"></a><br><b>Handheld-A-01</b><br><a href="https://youtu.be/HtsVLIKBW2k">▶ Camera video</a></td>
+    <td align="center" width="50%"><a href="fig/Handheld-A-02.gif" title="Open the full-resolution GIF"><img src="fig/Handheld-A-02.webp" width="100%" alt="GenZ-LIO mapping on Handheld-A-02"></a><br><b>Handheld-A-02</b><br><a href="https://youtu.be/p8Q2ib8B6yw">▶ Camera video</a></td>
   </tr>
   <tr>
-    <td align="center" width="50%"><img src="fig/Handheld-B-01.gif" width="100%"><br><b>Handheld-B-01</b><br><a href="https://youtu.be/Uhf_Ahj7aQU">▶ Camera video</a></td>
-    <td align="center" width="50%"><img src="fig/Handheld-B-02.gif" width="100%"><br><b>Handheld-B-02</b><br><a href="https://youtu.be/jT8D495zCyo">▶ Camera video</a></td>
+    <td align="center" width="50%"><a href="fig/Handheld-B-01.gif" title="Open the full-resolution GIF"><img src="fig/Handheld-B-01.webp" width="100%" alt="GenZ-LIO mapping on Handheld-B-01"></a><br><b>Handheld-B-01</b><br><a href="https://youtu.be/Uhf_Ahj7aQU">▶ Camera video</a></td>
+    <td align="center" width="50%"><a href="fig/Handheld-B-02.gif" title="Open the full-resolution GIF"><img src="fig/Handheld-B-02.webp" width="100%" alt="GenZ-LIO mapping on Handheld-B-02"></a><br><b>Handheld-B-02</b><br><a href="https://youtu.be/jT8D495zCyo">▶ Camera video</a></td>
   </tr>
 </table>
-<p align="center"><em>GenZ-LIO mapping on each sequence, recorded from the same viewpoint.</em></p>
+<p align="center"><em>GenZ-LIO mapping on each sequence, recorded from the same viewpoint. Click a preview to open the full-resolution GIF.</em></p>
 
 ## Data Format
 
