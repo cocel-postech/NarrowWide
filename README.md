@@ -2,6 +2,8 @@
 
 <p align="center">
   <a href="https://arxiv.org/abs/2603.16273"><img src="https://img.shields.io/badge/arXiv-2603.16273-b31b1b.svg" alt="arXiv"></a>
+  <a href="#data-format"><img src="https://img.shields.io/badge/ROS-1-blue.svg" alt="ROS 1"></a>
+  <a href="#data-format"><img src="https://img.shields.io/badge/ROS-2-orange.svg" alt="ROS 2"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License: MIT"></a>
   <!-- TODO: badges for GenZ-LIO code and YouTube -->
 </p>
