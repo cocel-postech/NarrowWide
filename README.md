@@ -116,6 +116,8 @@ Calibration was performed using
 [lidar_camera_calibration](https://github.com/ankitdhall/lidar_camera_calibration).
 We thank the authors and contributors for sharing their calibration tools with the community.
 
+The LiDAR–IMU–camera extrinsic parameters and camera intrinsic parameters are available for download below.
+
 **Download**: [Calibration](https://postechackr-my.sharepoint.com/:f:/g/personal/daehanlee_postech_ac_kr/IgB9tGmdTEBCS60Tw-nqTScqAer-OYUd2IOSmXGIqD3MjWY?e=g9afaX)
 
 ## Ground Truth
