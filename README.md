@@ -2,7 +2,8 @@
 
 <p align="center">
   <a href="https://arxiv.org/abs/2603.16273"><img src="https://img.shields.io/badge/arXiv-2603.16273-b31b1b.svg" alt="arXiv"></a>
-  <!-- TODO: badges for GenZ-LIO code, YouTube, and license -->
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License: MIT"></a>
+  <!-- TODO: badges for GenZ-LIO code and YouTube -->
 </p>
 
 A LiDAR-inertial dataset with frequent transitions between confined and open spaces, introduced in
@@ -191,7 +192,7 @@ If you use this dataset, please cite:
 
 ## License
 
-> TODO: dataset license.
+The NarrowWide dataset is released under the [MIT License](LICENSE).
 
 ## Contact
 
