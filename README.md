@@ -190,7 +190,7 @@ and the built-in BMI088 on Handheld B.
 
 ## Benchmark
 
-Absolute trajectory error (ATE), reported as RMSE in meters, from the paper's NarrowWide benchmark.
+Absolute trajectory error (ATE) on NarrowWide, reported as RMSE in meters.
 **Bold** indicates the lowest error in each sequence. **×** indicates divergence (ATE RMSE > 200 m);
 **–** indicates that the method does not support the sequence's LiDAR sensor.
 For benchmark results on other datasets, see the [GenZ-LIO paper](https://arxiv.org/abs/2603.16273).
